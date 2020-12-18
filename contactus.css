@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body{
+  min-height: 100vh;
+  background: url(background.jpg) no-repeat;
+  background-size: cover;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+}
+
+.active{
+  background: beige;
+}
+
+.contact-section{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-info{
+  color: #fff;
+  float: left;
+  max-width: 500px;
+  line-height: 65px;
+  padding-left: 50px;
+  font-size: 18px;
+}
+
+.contact-info i{
+  margin-right: 20px;
+  font-size: 25px;
+}
+
+.contact-info{
+  flex: 1;
+}
+
+.map{
+    margin: 30px 50px;
+  }
+
+.map{
+	filter: grayscale(0.2);
+	box-shadow: 2px 2px 20px rgba(0,0,0,0.2);
+    border: 2px solid cornsilk;
+  float: right; 
+}
+  
+  @media screen and (max-width: 950px){
+    .contact-section{
+      flex-direction: column;
+    }
+  
+    .contact-info, .map{
+      margin: 30px 50px;
+    }
+  
+  }
+  
+  /*css for alert messages*/
+                           
+  .header {
+    background-color: #000000;
+    padding: 2%;
+    
+}
+.header a{
+    text-decoration-line: none;
+    color:#ffffff;
+}
+.footer {
+    background-color: #000000;
+    padding: 15px 10px;
+    color:#ffffff;
+    text-align:center;
+    line-height: 30px;
+    font-size:10px;
+}
+#social-media img{
+    display:inline-block;
+    width:30px;
+    height:30px;
+    margin:0 1% 0 1%;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav div#navigation{
+    text-decoration: none;
+    background:rgba(0,0,0,0.1);
+    padding:2%;
+    /*margin:2%;*/
+    text-align:center;
+}
+nav>div>a{
+    color: black;
+    text-align: center;
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
+    font-size: 16px; 
+    line-height: 25px;
+    border-radius: 4px;  
+}  
+nav>div>a:hover{
+    background:rgba(255, 255, 255, 0.6);
+    color:#000000;
+}
+
+
+
+.dropbtn {
+  background-color: #000000;
+  color: white;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown {
+  position: relative;
+  float:right;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 130px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+  right: 0;
+}
+.dropdown-content a {
+  color: black;
+  padding: 4%;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+    background-color: rgba(0,0, 0, 0.2);
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}

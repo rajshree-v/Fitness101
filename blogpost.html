@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Blog Post
+        </title>
+        <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet" />
+        <link rel="stylesheet" type="text/css" href="css/common.css">
+        <style>
+            body {
+            margin: 0;
+             background:url("https://images.unsplash.com/photo-1515549832467-8783363e19b6?ixlib=rb-1.2.1&w=1000&q=80");   /* https://images.unsplash.com/photo-1544171779-783118e110f8?ixlib=rb-1.2.1&w=1000&q=80"); */
+            background-repeat: no-repeat;
+            background-size: cover;
+            }
+
+            p {
+            line-height: 1.5;
+            }
+
+            a {
+            text-decoration: none;
+            color: black;
+            }
+            
+            .page-heading{
+            font-size:24px;
+            font-family:'Roboto Condensed', sans-serif;
+            border-left:3px solid black;
+            border-right:3px solid black;
+            transition: all 0.4s;
+            display:inline-block;
+            padding:1px 20px;
+            margin: 40px;
+            }
+
+            .page-heading:hover{
+            padding:5px 25px;
+            background:orange;
+            }
+
+
+            /* Section */
+            section {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-left:40px;
+            }
+
+            /* Button Read more */
+
+            .btn-readmore {
+            padding: 8px 24px;
+            border: 3px solid black;
+            transition: 0.4s;
+            display: inline-block;
+            margin-bottom: 24px;
+            margin-left: 24px;
+            font-weight: bold;
+            cursor: pointer;
+            background: white;
+            }
+
+            .btn-readmore:hover {
+            background: orange;
+            text-decoration: none;
+            padding: 8px 64px 8px 24px;
+            color: white;
+            }
+
+
+            /* Single Blogpost */
+            #post-container{
+            display: flex;
+            }
+            .card-meta{
+            color:#333;
+            font-size: 14px;
+            padding-bottom:8px;
+            font-family:'Roboto Slab', serif;
+            }
+
+            #blogpost{
+            display: flex;
+            flex-direction:column;
+            width:85%;
+            border-left:1px solid #999;
+            padding-left:2.5%;
+            text-align: justify;
+            }
+
+            #blogpost .card{
+            width:100%;
+            }
+
+            #blogpost .card-image:hover{
+            box-shadow: none;
+            }
+
+            #text h2 {
+            font-size: 95px;
+            margin: 0;
+            writing-mode: vertical-lr;
+            text-align: center;
+            line-height: .9;
+
+            }
+
+            /* Vertical text */
+            .rotate {
+            transform: rotate(180deg);
+            }
+
+            #text {
+            display: grid;
+            height: 50%;
+            justify-content: center;
+            align-content: center;
+            grid-template-columns: max-content max-content;
+            
+            }
+            .button {
+                border: none;
+                outline: 0;
+                display: inline-block;
+                padding: 8px;
+                color: black;
+                background-color: white;
+                text-align: center;
+                cursor: pointer;
+                width: 100%;
+            }
+
+            .button:hover {background-color: #555;}
+            .active{
+                background: beige;
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="header" style="color:white;">
+                <img src="images/logo.png" width=35px height=30px>
+                <h1 style="display: inline; ">FITNESS 101</h1>
+                <div class="dropdown">
+                    <button class="dropbtn"><img src="images/user.png" width=40px height=40px ></button>
+                    <div class="dropdown-content">
+                        <a href="#report">Log-In</a>
+                        <a href="#contact">Sign-Up</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        
+        <nav>
+            <div id="navigation">
+                <a href="homepage.html">Home</a>
+                <a  class="active" href="health.html">Healthy Living</a>
+                <a href="faq.html">FAQ</a>
+                <a href="contactus.html">Contact Us</a>
+                <a href="help.php">Help</a>
+                <a href="member.php">Member's Area</a>
+            </div>
+        </nav>
+
+        <h2 class="page-heading">Apartment-Friendly Workouts That Pack a Punch: Workout Videos for Apartments & Small Spaces</h2>
+        <section id="blogpost">
+            <div class="card">
+              <div class="card-meta">
+                Posted by Rajshree on 10/10/2020 in
+                <a href="#login">Fitness101</a>
+              </div>
+              <div class="card-image" style="float:left;">
+                <img src="images/bg4.jpg" alt="Workout Image" style="width:85%;">
+              </div>
+              <div class="card-description" >
+                <div id="text">
+                    <h2 class="rotate" style="color:orange;">Workout</h2>
+                    <h2>At Home</h2>
+                </div>
+                <h3 style="color:orange;" >Okay so here goes...</h3>
+                <p>When I was a (completely & totally broke) college student and for a few years after, I lived in small apartments.
+                I was still mostly doing gym workouts at that point, but every now and again I would tackle a workout in my apartment.
+                That lasted until I dropped my rent off at the apartment manager's office, and they asked, "Do you dance around at night...or something? Because the neighbors downstairs are wondering what it is you're doing up there."</p>
+                <p>It's important to be considerate of your neighbors. You never know who might need to wake up early for work or 
+                who might be sleeping before they tackle a night shift or have a new baby or just want to get some quiet time without
+                the pounding of someone's feet overhead. That's fair. But it also seems a fair objective to want to be able to work out
+                in your own living space - it's a seriously convenient, excuse-busting, money-saving option. In an effort to keep both you
+                and your downstairs neighbors happy, I've built a list of apartment friendly workout videos that take into consideration the
+                impact of landing and the amount of space you might have available. These same routines may be great choices for hotel room workouts, too!</p>
+                <h3 style="color:orange;">Apartment-Friendly Cardio Workouts</h3>
+                <p>Cardio workouts may seem like an extra challenge, but the trick is to choose low impact cardio workouts that don't involve jumping.
+                That way, you can work up a good sweat without bothering neighbors.</p>
+              </div>
+            </div>
+            <button class="button"  style="color:orange;" onclick="location.href='register.php'">SIGN UP TO GET IN TOUCH</button>
+        </section>
+
+
+        <footer style="margin-top:3%;">
+            <div class="footer">
+                FOLLOW US
+                <div id="social-media">
+                    <a href="https://www.instagram.com/rajshree.varma/saved/?hl=en"><img src="https://www.iconfinder.com/data/icons/2018-social-media-black-and-white-logos/1000/2018_social_media_popular_app_logo_facebook-256.png" alt="visit our facebook" class="social"></a>
+                    <a href="https://www.instagram.com/rajshree.varma/saved/?hl=en"><img src="https://www.iconfinder.com/data/icons/2018-social-media-black-and-white-logos/1000/2018_social_media_popular_app_logo_instagram-256.png" alt="visit our instagram " class="social"></a>
+                    <a href="https://www.instagram.com/rajshree.varma/saved/?hl=en"><img src="https://www.iconfinder.com/data/icons/2018-social-media-black-and-white-logos/1000/2018_social_media_popular_app_logo_twitter-256.png" alt="visit our twitter " class="social"></a>
+                </div>
+                <!-- Copyright -->
+                <div class="footer-copyright" style=" background-color:rgba(255, 255, 255, 0.13);">
+                    &#169; 2020 Copyright:
+                  <a href="homepage.html" style="text-decoration:none; color:rgba(255, 255, 255, 0.281);"> Fitness101.com</a> 
+                  All rights reserved.<br>
+                </div>
+                <!-- Copyright -->
+            </div>
+        </footer>
+    </body>
+</html>    
